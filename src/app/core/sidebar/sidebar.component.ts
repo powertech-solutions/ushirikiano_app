@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import ushirikianoLogo from '../../../../public/images/assets/'
 
 @Component({
   selector: 'app-sidebar',
@@ -8,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './sidebar.component.css'
 })
 export class SidebarComponent {
+
+  // ushirikianoLogoPath = ushirikianoLogo;
 
 }
