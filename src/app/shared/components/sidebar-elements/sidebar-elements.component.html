@@ -1,0 +1,8 @@
+<div class="">
+  <app-sidebar-item/>
+  <div>
+    <div *ngFor="let link of sidebarLinks">
+      <app-sidebar-item [data]="link"/>
+    </div>
+  </div>
+</div>
